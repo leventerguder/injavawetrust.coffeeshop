@@ -1,0 +1,78 @@
+body { font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.io-clearbox { height:0; clear:both; }
+
+p { color:#313131; font-size:14px; margin:0; padding:0; }
+.io-p-header001 { color:#313131; font-size:24px; margin:0; padding:40px 5% 20px 5%; }
+.io-p-info001 { color:#313131; font-size:16px; margin:0; padding:0; }
+	.io-p-info001 span { color:#0e5298; font-weight:bold; }
+.io-p-info002 { color:#313131; font-size:16px; margin:0; padding:0 5%; text-align:center; }
+	.io-p-info002 span { color:#0e5298; font-weight:bold; }
+.io-p-info003 { color:#313131; font-size:16px; margin:0; padding:0; }
+	.io-p-info003 span { color:#ca0077; font-weight:bold; }
+.io-p-info004 { color:#313131; font-size:16px; margin:0; padding:0 5%; text-align:center; }
+	.io-p-info004 span { color:#ca0077; font-weight:bold; }
+.io-alignright { text-align:right; }
+
+#io-page-wrapper { position:relative; width:100%; max-width:700px; margin:0 auto; padding:0; border:#666666 1px solid; background-color:#ffffff; }
+	#io-cont-lock { position:relative; width:14.285%; margin:0; padding:0; float:left; }
+	#io-cont-logoisbank { position:relative; width:35.714%; margin:0; padding:0; background-color:#0e5298; float:left; }
+	#io-cont-logomaximum { position:relative; width:35.714%; margin:0; padding:0; background-color:#ca0077; float:left; }
+	#io-cont-logovisa { position:relative; width:14.285%; margin:0; padding:0; float:left; }
+	#io-cont-logomastercard { position:relative; width:14.285%; margin:0; padding:0; float:left; }
+	#io-cont-logoaexpress { position:relative; width:21.431%; margin:0; padding:0; float:left; }
+		#io-cont-lock img ,#io-cont-logoisbank img ,#io-cont-logovisa img ,#io-cont-logomastercard img ,#io-cont-logoaexpress img { width:100%; height:auto; }
+	#io-formcont-kartno { position:relative; width:230px; margin:0 0 15px 5%; padding:0; float:left; }
+	#io-formcont-tarih { position:relative; width:150px; margin:0 0 15px 5%; padding:0; float:left; }
+	#io-formcont-guvenlik { position:relative; width:130px; margin:0 0 15px 5%; padding:0; float:left; }
+	.io-infocont { position:relative; width:26.666%; margin:0 0 0 5%; padding:5px 0; float:left; }
+	.io-seperator { position:relative; width:90%; margin:20px 5%; padding:0; text-align:center; overflow:hidden; }
+		.io-seperator .io-seperator-line { position:absolute; width:100%; height:1px; left:0; top:12px; margin:0; padding:0; background-color:#f8f8f8; }
+		.io-seperator .io-seperator-text { position:relative; width:100%; margin:0; padding:0; }
+		.io-seperator .io-seperator-text span { padding:2px 10px; display:inline-block; background-color:#ffffff; }
+	.io-odecont { position:relative; width:26.666%; margin:5px 0 5px 5%; padding:5px 0; background-color:#f8f8f8; float:left; }
+		.io-table01 { width:100%; max-width:200px; margin:0 auto; padding:0; font-size:12px; }
+	.io-sortpay { position:relative; width:100%; margin:20px 0; padding:0 5%; text-align:center; }
+	.io-sifrecont { position:relative; width:100%; margin:10px 0; padding:0 5%; text-align:center; }
+		.io-table02 { margin:10px auto; }
+		.io-table02 td { padding:0 3px; }
+		.io-table03 { margin:10px auto; font-size:14px; }
+		.io-table03 td { padding:3px 3px; }
+
+label { color:#313131; font-size:14px; margin:0; padding:0 0 5px 0; display:block; }
+.io-inputstyle { height:38px; margin:0; padding:0 5px; border:#b6b6b6 1px solid; background-color:#ffffff; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#313131; font-size:16px; }
+.io-inputstyle2 { height:38px; margin:0; padding:0 5px; border:#b6b6b6 1px solid; background-color:#ffffff; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#0e5298; font-size:20px; }
+#io-input-kartno { width:230px; }
+#io-input-ay { width:60px; }
+#io-input-yil { width:80px; }
+#io-input-guvenlik { width:60px; }
+#io-input-sifre { width:120px; }
+.io-submitstyle { width:100%; max-width:400px; height:40px; margin:0; padding:0; border:none; background-color:#0e5298; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#ffffff; font-size:16px; cursor:pointer; }
+.io-submitstyle-maximum { width:100%; max-width:400px; height:40px; margin:0; padding:0; border:none; background-color:#ca0077; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#ffffff; font-size:16px; cursor:pointer; }
+.io-submitstyle2 { width:120px; height:40px; margin:0; padding:0; border:none; background-color:#0e5298; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#ffffff; font-size:16px; cursor:pointer; }
+.io-submitstyle2-maximum { width:120px; height:40px; margin:0; padding:0; border:none; background-color:#ca0077; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#ffffff; font-size:16px; cursor:pointer; }
+.io-btnstyle { margin:0; padding:0 16px; border:none; background-color:#0e5298; display:inline-block; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#ffffff; font-size:16px; line-height:40px; text-decoration:none; }
+.io-btnstyle-maximum { margin:0; padding:0 16px; border:none; background-color:#ca0077; display:inline-block; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#ffffff; font-size:16px; line-height:40px; text-decoration:none; }
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#io-formcont-kartno { width:95%; float:none; }
+	#io-formcont-tarih { width:95%; float:none; }
+	#io-formcont-guvenlik { width:95%; float:none; }
+	.io-infocont { width:90%; margin:0 5%; float:none; }
+	.io-odecont { width:90%; margin:5px 0 5px 5%; float:none; }
+	.io-p-info001 { text-align:center; }
+	.io-mobilecenter { text-align:center !important; }
+}
+
+@media only screen and (max-width: 479px) {
+	#io-formcont-kartno { width:95%; float:none; }
+	#io-formcont-tarih { width:95%; float:none; }
+	#io-formcont-guvenlik { width:95%; float:none; }
+	.io-infocont { width:90%; margin:0 5%; float:none; }
+	.io-odecont { width:90%; margin:5px 0 5px 5%; float:none; }
+	.io-p-info001 { text-align:center; }
+	.io-mobilecenter { text-align:center !important; }
+}
